@@ -196,11 +196,15 @@
         "background_hover_control": { "$ref": "#/definitions/prop:background_hover_control" },
         "progress_control": { "$ref": "#/definitions/prop:progress_control" },
         "progress_hover_control": { "$ref": "#/definitions/prop:progress_hover_control" },
-        "slider_render_bar_background_color": { "$ref": "#/definitions/prop:slider_render_bar_background_color" }, 
-        "slider_render_bar_progress_color": { "$ref": "#/definitions/prop:slider_render_bar_progress_color" }, 
-        "slider_render_bar_outline_color": { "$ref": "#/definitions/prop:slider_render_bar_outline_color" }, 
-        "slider_render_bar_background_hover_color": { "$ref": "#/definitions/prop:slider_render_bar_background_hover_color" }, 
-        "slider_render_bar_progress_hover_color": { "$ref": "#/definitions/prop:slider_render_bar_progress_hover_color" }, 
+        "slider_render_bar_background_color": { "$ref": "#/definitions/prop:slider_render_bar_background_color" },
+        "slider_render_bar_progress_color": { "$ref": "#/definitions/prop:slider_render_bar_progress_color" },
+        "slider_render_bar_outline_color": { "$ref": "#/definitions/prop:slider_render_bar_outline_color" },
+        "slider_render_bar_background_hover_color": {
+          "$ref": "#/definitions/prop:slider_render_bar_background_hover_color"
+        },
+        "slider_render_bar_progress_hover_color": {
+          "$ref": "#/definitions/prop:slider_render_bar_progress_hover_color"
+        },
         "slider_render_bar_outline_hover_color": { "$ref": "#/definitions/prop:slider_render_bar_outline_hover_color" },
         // Slider Box
         "indent_control": { "$ref": "#/definitions/prop:indent_control" },
@@ -220,13 +224,13 @@
         "pressed_color": { "$ref": "#/definitions/prop:pressed_color" },
         "pressed_alpha": { "$ref": "#/definitions/prop:pressed_alpha" },
         // Grid
-        "grid_dimensions": { "$ref": "#/definitions/prop:grid_dimensions"},
-        "maximum_grid_items": { "$ref": "#/definitions/prop:maximum_grid_items"},
-        "grid_dimension_binding": { "$ref": "#/definitions/prop:grid_dimension_binding"},
-        "grid_rescaling_type": { "$ref": "#/definitions/prop:grid_rescaling_type"},
-        "grid_fill_direction": { "$ref": "#/definitions/prop:grid_fill_direction"},
-        "precached_grid_item_count": { "$ref": "#/definitions/prop:precached_grid_item_count"},
-        "grid_item_template": { "$ref": "#/definitions/prop:grid_item_template"},
+        "grid_dimensions": { "$ref": "#/definitions/prop:grid_dimensions" },
+        "maximum_grid_items": { "$ref": "#/definitions/prop:maximum_grid_items" },
+        "grid_dimension_binding": { "$ref": "#/definitions/prop:grid_dimension_binding" },
+        "grid_rescaling_type": { "$ref": "#/definitions/prop:grid_rescaling_type" },
+        "grid_fill_direction": { "$ref": "#/definitions/prop:grid_fill_direction" },
+        "precached_grid_item_count": { "$ref": "#/definitions/prop:precached_grid_item_count" },
+        "grid_item_template": { "$ref": "#/definitions/prop:grid_item_template" },
         // Grid Item
         "grid_position": { "$ref": "#/definitions/prop:grid_position" },
         // Edit Box
@@ -265,19 +269,19 @@
         // Data Binding
         "bindings": { "$ref": "#/definitions/prop:bindings" },
         // Collection
-        "collection_name": { "$ref": "#/definitions/prop:collection_name" }, 
+        "collection_name": { "$ref": "#/definitions/prop:collection_name" },
         "collection_index": { "$ref": "#/definitions/prop:collection_index" },
         "ignoreCollectionItem": { "$ref": "#/definitions/prop:ignoreCollectionItem" },
         // Focus
-        "default_focus_precedence": { "$ref": "#/definitions/prop:default_focus_precedence" }, 
-        "focus_enabled": { "$ref": "#/definitions/prop:focus_enabled" }, 
-        "focus_wrap_enabled": { "$ref": "#/definitions/prop:focus_wrap_enabled" }, 
-        "focus_magnet_enabled": { "$ref": "#/definitions/prop:focus_magnet_enabled" }, 
-        "focus_identifier": { "$ref": "#/definitions/prop:focus_identifier" }, 
-        "focus_change_down": { "$ref": "#/definitions/prop:focus_change_down" }, 
-        "focus_change_up": { "$ref": "#/definitions/prop:focus_change_up" }, 
-        "focus_change_left": { "$ref": "#/definitions/prop:focus_change_left" }, 
-        "focus_change_right": { "$ref": "#/definitions/prop:focus_change_right" }, 
+        "default_focus_precedence": { "$ref": "#/definitions/prop:default_focus_precedence" },
+        "focus_enabled": { "$ref": "#/definitions/prop:focus_enabled" },
+        "focus_wrap_enabled": { "$ref": "#/definitions/prop:focus_wrap_enabled" },
+        "focus_magnet_enabled": { "$ref": "#/definitions/prop:focus_magnet_enabled" },
+        "focus_identifier": { "$ref": "#/definitions/prop:focus_identifier" },
+        "focus_change_down": { "$ref": "#/definitions/prop:focus_change_down" },
+        "focus_change_up": { "$ref": "#/definitions/prop:focus_change_up" },
+        "focus_change_left": { "$ref": "#/definitions/prop:focus_change_left" },
+        "focus_change_right": { "$ref": "#/definitions/prop:focus_change_right" },
         "focus_mapping": { "$ref": "#/definitions/prop:focus_mapping" },
         "focus_container": { "$ref": "#/definitions/prop:focus_container" },
         "use_last_focus": { "$ref": "#/definitions/prop:use_last_focus" },
@@ -333,10 +337,10 @@
         // Custom - Paper Doll Renderer
         "camera_tilt_degrees": { "$ref": "#/definitions/prop:camera_tilt_degrees" },
         "starting_rotation": { "$ref": "#/definitions/prop:starting_rotation" },
-        "use_selected_skin": { "$ref": "#/definitions/prop:use_selected_skin" }, 
-        "use_uuid": { "$ref": "#/definitions/prop:use_uuid" }, 
-        "use_skin_gui_scale": { "$ref": "#/definitions/prop:use_skin_gui_scale" }, 
-        "use_player_paperdoll": { "$ref": "#/definitions/prop:use_player_paperdoll" }, 
+        "use_selected_skin": { "$ref": "#/definitions/prop:use_selected_skin" },
+        "use_uuid": { "$ref": "#/definitions/prop:use_uuid" },
+        "use_skin_gui_scale": { "$ref": "#/definitions/prop:use_skin_gui_scale" },
+        "use_player_paperdoll": { "$ref": "#/definitions/prop:use_player_paperdoll" },
         "rotation": { "$ref": "#/definitions/prop:rotation" },
         "modelsize": { "$ref": "#/definitions/prop:modelsize" },
         "animation_looped": { "$ref": "#/definitions/prop:animation_looped" },
@@ -432,10 +436,7 @@
     },
     "nm:type": {
       "description": "Type of the UI element. It's required to have it otherwise it will throw an error.",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:type" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:type" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "nm:controls": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nChildren of the UI element.\t\n\t\n**Version**: ```+0.12```",
@@ -468,9 +469,7 @@
                 "type": "string"
               }
             },
-            "required": [
-              "requires"
-            ]
+            "required": ["requires"]
           }
         },
         {
@@ -481,9 +480,7 @@
               "type": "string"
             }
           },
-          "required": [
-            "requires"
-          ]
+          "required": ["requires"]
         },
         { "$ref": "#/definitions/vl:variable" }
       ]
@@ -491,7 +488,7 @@
     "nm:modifications": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nAllows to modify the UI elements from resource packs below this one.",
       "oneOf": [
-        { 
+        {
           "type": "array",
           "items": {
             "type": "object",
@@ -500,11 +497,7 @@
               "array_name": {
                 "oneOf": [
                   {
-                    "enum": [
-                      "controls",
-                      "bindings",
-                      "button_mappings"
-                    ]
+                    "enum": ["controls", "bindings", "button_mappings"]
                   },
                   { "$ref": "#/definitions/vl:variable" }
                 ]
@@ -581,10 +574,7 @@
     "nm:ignored": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIf the UI element is ignored during parsing. It won't be used at all.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Animations
     "prop:anims": {
@@ -604,10 +594,7 @@
     "prop:disable_anim_fast_forward": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.1```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:animation_reset_name": {
       "type": "string",
@@ -615,17 +602,11 @@
     },
     // Animations Element (Independent of the UI elements)
     "anim_prop:anim_type": {
-      "oneOf": [
-        { "$ref": "#/definitions/vl:anim_type" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:anim_type" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:duration": {
       "markdownDescription": "**Anim Type**: ```Any (!Flipbook)```",
-      "type": [
-        "number",
-        "string"
-      ]
+      "type": ["number", "string"]
     },
     "anim_prop:next": {
       "markdownDescription": "**Anim Type**: ```Any (!Flipbook)```\t\n\t\nWhat animation to play next following this current one.",
@@ -652,10 +633,7 @@
       "type": "string"
     },
     "anim_prop:easing": {
-      "oneOf": [
-        { "$ref": "#/definitions/vl:easing" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:easing" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:from": {
       "markdownDescription": "**Anim Type**: ```Any (!Flipbook)```",
@@ -692,46 +670,28 @@
     },
     "anim_prop:fps": {
       "markdownDescription": "**Anim Type**: ```Flipbook```",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:frame_count": {
       "markdownDescription": "**Anim Type**: ```Flipbook```\t\n\t\nThe amount of frames the animation has.",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:frame_step": {
       "markdownDescription": "**Anim Type**: ```Flipbook```\t\n\t\nHow many pixels to advance to get to the next frame.",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:reversible": {
       "markdownDescription": "**Anim Type**: ```Flipbook```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:resettable": {
       "markdownDescription": "**Anim Type**: ```Any```\t\n\t\n**Version**: ```+1.3/1.4```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:scale_from_starting_alpha": {
       "markdownDescription": "**Anim Type**: ```Alpha```\t\n\t\n**Version**: ```+1.3/1.4```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:activated": {
       "type": "string",
@@ -740,51 +700,33 @@
     "anim_prop:looping": {
       "markdownDescription": "**Anim Type**: ```Flipbook```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "anim_prop:wait_until_rendered_to_play": {
       "markdownDescription": "**Anim Type**: ```Flipbook```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Control
     "prop:visible": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIf the UI element should be visible.\t\n\t\n**Default**: ```true```\t\n\t\n**Version**: ```+0.12```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:enabled": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIf true and if the UI element or any of its children have the locked state then they will be in the locked.\t\n\t\n**Default**: ```true```\t\n\t\n**Version**: ```+0.13```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:layer": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nZ-Index/Layer relative to parent element. Higher layers will render above.\t\n\t\n**Default**: ```0```\t\n\t\n**Version**: ```+0.13```",
       "default": 0,
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:z_order": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nZ-Index relative to parent element. Higher layers will render above. Replaced with ```layer```.\t\n\t\n**Default**: ```0```\t\n\t\n**Version**: ```0.12 only```",
       "default": 0,
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:alpha": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nAlpha/transparency of the element. It will only affect the parent UI element. Its children will be unaffected. If you want the alpha to apply for both the parent and children use ```propagate_alpha```.\t\n\t\n**Default**: ```1.0```\t\n\t\n**Version**: ```+0.12```",
@@ -802,26 +744,17 @@
     "prop:propagate_alpha": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIf ```alpha``` should not only apply to the parent if possible but also all its children.\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.1```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:clips_children": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nCuts off everything beyond the bounderies of the UI element.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:allow_clipping": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIf ```clips_children``` works in the UI element. Otherwise, it won't have any effect.\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:clip_offset": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nOffset from the start of the clipping.\t\n\t\n**Default**: ```[0, 0]```\t\n\t\n**Version**: ```? - ?```",
@@ -845,649 +778,16 @@
     "prop:enable_scissor_test": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:property_bag": {
       "$comment": "TODO: Add props",
       "markdownDescription": "**Type**: ```Any```\t\n\t\nProperty bag contains properties that are more related with the data than the actually structure of the UI element.",
       "oneOf": [
-        { 
+        {
           "type": "object",
           "additionalProperties": true,
-          "properties": {
-            // Live Horse Renderer
-            "#entity_id": {
-              "type": "string"
-            },
-            // Paper Doll Renderer
-            "entity_type": {
-              "oneOf": [
-                {
-                  "enum": [
-                    "player",
-                    "npc"
-                  ]
-                },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#skin_idx": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#player_uuid": {
-              "type": "string"
-            },
-            "#skin_rotation": {
-               "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#custom_rot_y": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#gesture_delta_source": {
-              "type": "string"
-            },
-            "#gesture_mouse_delta_x": {
-              "type": "string"
-            },
-            "#pack_id": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#force_skin_update": {
-              "type": "string"
-            },
-            // Progress Bar Renderer
-            "#progress_bar_visible": {
-               "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#progress_bar_total_amount": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#progress_bar_current_amount": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "is_durability": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "round_value": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "drop_shadow": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "round_up": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "is_storage_bar": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            // Hover Text Renderer
-            "#hover_text": {
-              "type": "string"
-            },
-            // Enchanting Book Renderer
-            "#open": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            // Flying Item Renderer
-            "flying_item_count": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_id_aux": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_custom_color": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_origin_position_x": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_origin_position_y": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_origin_scale": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_destination_position_x": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_destination_position_y": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_destination_scale": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "flying_item_banner_patterns": {
-              "type": "string"
-            },
-            "flying_item_banner_colors": {
-              "type": "string"
-            },
-            // Gif Renderer
-            "#gif_path": {
-              "type": "string"
-            },
-            "#pause_gif": {
-              "type": "string"
-            },
-            // QrCode Renderer
-            "#qr_code_content": {
-              "type": "string"
-            },
-            //
-            "skin_pack_collection_name": {
-              "type": "string"
-            },
-            "timer_duration": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#should_host": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "is_local": {
-              "description": "Version: +1.14",
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#is_left": {
-              "description": "Version: +1.13",
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#is_skins": {
-              "description": "Version: +1.13",
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#image_name": {
-              "description": "Version: +1.13",
-              "type": "string"
-            },
-            "#is_dropdown": {
-              "description": "Version: +1.11",
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#timer_field_count_to_show": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#owned_incompatible_prompt_color": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "name": {
-              "type": "string"
-            },
-            "#modal_title_text": { // CHECK LATER
-              "type": "string"
-            },
-            "#modal_label_text": {
-              "type": "string"
-            },
-            "#buttons_visible": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#no_buttons_visible": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#single_button_visible": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#two_buttons_visible": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "reset_group": {
-              "description": "Resets user settings.\nVersion: +1.2",
-              "oneOf": [
-                {
-                  "enum": [
-                    "video",
-                    "audio",
-                    // +1.11
-                    "accessibility"
-                  ]
-                },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#text": {
-              "type": "string"
-            },
-            "is_fixed_inventory": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "experimental_radio_button_state": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "classic_radio_button_state": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#slider_steps": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#slider_value": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#collection_prefix": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#visible": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#anchored_offset_value": {
-              "description": "Legacy",
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#anchored_offset_value_x": {
-                "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#anchored_offset_value_y": {
-                "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#size_binding_x": {
-                "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#size_binding_y": {
-                "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#size_binding_x_absolute": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#size_binding_y_absolute": {
-                "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#is_featured": {
-              "type": ["boolean", "string"]
-            },
-            "#disabled_filter_visible": {
-              "type": ["boolean", "string"]
-            },
-            "#common": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#uncommon": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#rare": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#epic": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#legendary": {
-              "oneOf": [
-                { "$ref": "#/definitions/vl:color" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#max_upsell_offers": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#default_prompt_color": {
-              "type": "string"
-            },
-            "#coin_prompt_color": {
-              "type": "string"
-            },
-            "control_id": {
-              "type": "string"
-            },
-            "#visible_after_x_ratings": {
-              "type": ["boolean", "string"]
-            },
-            "#empty_star_texture": {
-              "type": "string"
-            },
-            "#filled_star_texture": {
-              "type": "string"
-            },
-            "#look_at_cursor": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#use_heart_offset": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#hyperlink": {
-              "oneOf": [
-                { "$ref": "#/definitions/hc:links" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#flying_item_renderer": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#item_id_aux": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#collection_name": {
-              "type": "string"
-            },
-            "#index": {
-              "type": ["integer", "string"]
-            },
-            "#collection_index": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#property_field": {
-              "type": "string"
-            },
-            "#hover_slice": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#start_selected": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#filtered_light_multiplier": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#tts_dialog_title": {
-              "description": "Version: +1.11",
-              "type": "string"
-            },
-            "#tts_dialog_body": {
-              "description": "Version: +1.11",
-              "type": "string"
-            },
-            "force_update": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            // Vignette Renderer
-            "opacity_override": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#playername": {
-              "type": "string"
-            },
-            "#x_padding": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#sub_command": {
-              "description": "Crashes if this is used in a button that is not inside a specific collection. (Hardcoded)",
-              "type": "string"
-            },
-            "#has_focus": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#banner_patterns": {
-              "type": "string"
-            },
-            "#banner_colors": {
-              "type": "string"
-            },
-            "#item_custom_color": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#item_pickup_time": {
-              "oneOf": [
-                { "type": "number" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#block_position": {
-              "oneOf": [
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
-                },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#panel_title": {
-              "type": "string"
-            },
-            "#toggle_state": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#bottom_left_block": {
-              "oneOf": [
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
-                },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#top_right_block": {
-              "oneOf": [
-                {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
-                },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#include_entities": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#remove_blocks": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#include_players": {
-              "oneOf": [
-                { "type": "boolean" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#button_navigation": {
-              "oneOf": [
-                { "type": "integer" },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
-            },
-            "#category": {
-              "type": "string"
-            }
-          }
+          "properties": {}
         },
         { "$ref": "#/definitions/vl:variable" }
       ]
@@ -1495,40 +795,25 @@
     "prop:selected": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\nIf the text box is selected by default.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_child_anchors": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nUse the anchor_from/anchor_to of the child of the UI element.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:anchor_from": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nAnchor in the parent element.\t\n\t\n**Default**: ```center```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:anchor" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:anchor" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:anchor_to": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nAnchor in this element.\t\n\t\n**Default**: ```center```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:anchor" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:anchor" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:contained": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:draggable": {
       "markdownDescription": "**Type**: ```Any```",
@@ -1540,10 +825,7 @@
     "prop:follows_cursor": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nFollows the mouse or touch.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:offset": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nPosition of the UI element relative to the parent UI element. __[x, y]__\t\n\t\n ___px___ - *Pixels*\t\n\t\n ___%___ - *Width/height of parent UI element*\t\n\t\n ___%x___ - *Width of the UI element*\t\n\t\n ___%y___ - *Height of the UI element*\t\n\t\n**Default**: ```[0, 0]```",
@@ -1584,36 +866,24 @@
     "prop:inherit_max_sibling_width": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.3/1.4```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:inherit_max_sibling_height": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.3/1.4```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_anchored_offset": {
       "prop:inherit_max_sibling_height": {
         "markdownDescription": "**Type**: ```Any```\t\n\t\n**Default**: ```false```",
         "default": false,
-        "oneOf": [
-          { "type": "boolean" },
-          { "$ref": "#/definitions/vl:variable" }
-        ]
+        "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
       }
     },
     // Stack Panel
     "prop:orientation": {
       "markdownDescription": "**Type**: ```Stack Panel```\t\n\t\nDirection the items stack inside ```stack_panel```.\t\n\t\n**Requires**: ```**type**: stack_panel```\t\n**Default**: ```vertical```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:orientation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:orientation" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Text
     "prop:text": {
@@ -1641,18 +911,12 @@
     "prop:shadow": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nShadow of the text.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:hide_hyphen": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nHide hyphen caused by word breaking.\t\n\t\n**Default**: ```false```\t\n**Version**: ```+1.2```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:notify_on_ellipses": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nArray of names of the UI elements to notify when text gets or loses ellipses.\t\n\t\n**Version**: ```+1.3/1.4```",
@@ -1669,18 +933,12 @@
     "prop:notify_ellipses_sibling": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:enable_profanity_filter": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nCensore words included in the profanity_filter.wlist file.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:locked_alpha": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nAlpha/transparency of label when a parent has ```enabled: false```.\t\n\t\n**Default**: ```1.0```",
@@ -1697,10 +955,7 @@
     },
     "prop:font_size": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nSize of the text.\t\n\t\n**Default**: ```normal```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:font_size" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:font_size" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:font_scale_factor": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nScale of the text.\t\n\t\n**Default**: ```1.0```\t\n**Version**: ```+1.2```",
@@ -1716,54 +971,33 @@
     "prop:localize": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nIf ```text``` should be translated.\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:line_padding": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nSpace between lines.\t\n\t\n**Version**: ```+1.2```",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:font_type": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nFont of the text.\t\n\t\n**Default**: ```default```",
-      "anyOf": [
-        { "$ref": "#/definitions/vl:font_type" },
-        { "type": "string" }
-      ]
+      "anyOf": [{ "$ref": "#/definitions/vl:font_type" }, { "type": "string" }]
     },
     "prop:backup_font_type": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nFont used if ```font_type``` didn't work.\t\n\t\n**Default**: ```default```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:font_type" },
-        { "type": "string" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:font_type" }, { "type": "string" }]
     },
     "prop:text_alignment": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nText alignment direction when the text element is bigger than the text content itself.\t\n\t\n**Version**: ```+1.1```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:text_alignment" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:text_alignment" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:alignment": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\nText alignment direction when the text element is bigger than the text content itself.\t\n\t\n**Version**: ```? - ?```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:text_alignment" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:text_alignment" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_place_holder": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\n**Version**: ```0.16 Only```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:place_holder_text": {
       "markdownDescription": "**Type**: ```Label```\t\n\t\n**Version**: ```0.16 Only```",
@@ -1792,17 +1026,11 @@
     },
     "prop:tts_control_type_order_priority": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.11```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_index_priority": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nElement text to speech priority.\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_toggle_on": {
       "type": "string",
@@ -1818,10 +1046,7 @@
     },
     "prop:tts_inherit_siblings": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nElement has siblings that use text to speech and inherits their tts.\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.11```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_value_changed": {
       "type": "string",
@@ -1829,52 +1054,31 @@
     },
     "prop:ttsSectionContainer": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nThe content belongs to a certain tts.\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_ignore_count": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nIgnore how many elements are in queue for tts.\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_skip_message": {
       "markdownDescription": "**Type**: Any\t\n\t\nDoesn't allow text to speech and skip it.\t\n\t\nDefault: false\t\nVersion: +1.15/1.16",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_skip_children": {
       "markdownDescription": "**Type**: Any\t\n\t\nDefault: false\t\nVersion: +1.19",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_value_order_priority": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.11```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_play_on_unchanged_focus_control": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tts_ignore_subsections": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:text_tts": {
       "type": "string",
@@ -1882,17 +1086,11 @@
     },
     "prop:use_priority": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.13```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:priority": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\n**Version**: ```+1.13```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Sprite
     "prop:texture": {
@@ -1904,10 +1102,7 @@
     "prop:allow_debug_missing_texture": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nDisplay the missing_texture if the texture is not found.\t\n\t\n**Default**: ```true```\t\n\t\n**Version**: ```+1.11```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:uv": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nStart position of the texture mapping. __[u, v]__",
@@ -1915,11 +1110,12 @@
       "oneOf": [
         {
           "type": "array",
-          "minItems": 2,
+          "minItems": 0,
           "maxItems": 2,
-          "items": {
-            "type": "number"
-          }
+          "items": { "type": "number" }
+        },
+        {
+          "type": "object"
         },
         { "$ref": "#/definitions/vl:animation" },
         { "$ref": "#/definitions/vl:variable" }
@@ -1944,10 +1140,7 @@
     "prop:texture_file_system": {
       "markdownDescription": "**Type**: ```Image```",
       "type": "string",
-      "examples": [
-        "RawPath",
-        "InAppPackage"
-      ]
+      "examples": ["RawPath", "InAppPackage"]
     },
     "prop:nineslice_size": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\n9-slice. __[x1, y1, x2, y2]__ __[x1/x2, y1/y2]__ or just a number for all of them. An explanation of ninepath: [https://wiresareobsolete.com/2010/06/9-patches/](https://wiresareobsolete.com/2010/06/9-patches/).",
@@ -1967,11 +1160,7 @@
     "prop:tiled": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nIf the texture will tile when the size of the UI element is bigger than the texture size.\t\n\t\n**Default**: ```false```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "enum": ["x", "y", "xy", "yx"] },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "enum": ["x", "y", "xy", "yx"] }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tiled_scale": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nScale of the texture tiling.\t\n\t\n**Default**: ```1.0```\t\n\t\n**Version**: ```+1.0```",
@@ -1989,10 +1178,7 @@
     },
     "prop:clip_direction": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nStart point position for the ```clip_ratio```. If ```down```, the image will begin to appear from the bottom.",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:clip_direction" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:clip_direction" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:clip_ratio": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nHow much to clip. From 0.0 to 1.0.\t\n\t\n**Version**: ```+1.2```",
@@ -2009,49 +1195,31 @@
     "prop:clip_pixelperfect": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nIf the clip should try to be most pixel accurate possible.\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:pixel_perfect": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nAlias for ```clip_pixelperfect```.\t\n\t\n**Default**: ```true```\t\n\t\n**Version**: ```1.8 only```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:keep_ratio": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nKeep ratio when resizing image.\t\n\t\n**Version**: ```+1.12```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:bilinear": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nUse the bilinear function when resizing the image.\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.5```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:fill": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\n**Version**: ```+1.2```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:fit_to_width": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\n**Version**: ```? - ?```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:zip_folder": {
       "markdownDescription": "**Type**: ```Image```",
@@ -2060,18 +1228,12 @@
     "prop:grayscale": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\nRender image in black and white.\t\n\t\n**Default**: ```false```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:force_texture_reload": {
       "markdownDescription": "**Type**: ```Image```\t\n\t\n**Version**: ```+1.2```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:base_size": {
       "markdownDescription": "**Type**: ```Image```",
@@ -2092,10 +1254,7 @@
     "prop:color_corrected": {
       "markdownDescription": "**Type**: ```Image```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Sound
     "prop:sound_name": {
@@ -2203,17 +1362,11 @@
     // Selection Wheel
     "prop:inner_radius": {
       "markdownDescription": "**Type**: ```Selection Wheel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:outer_radius": {
       "markdownDescription": "**Type**: ```Selection Wheel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:state_controls": {
       "markdownDescription": "**Type**: ```Selection Wheel```\t\n\t\n**Version**: ```+1.15/1.16```",
@@ -2238,10 +1391,7 @@
     },
     "prop:slice_count": {
       "markdownDescription": "**Type**: ```Selection Wheel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:button_name": {
       "type": "string",
@@ -2257,10 +1407,7 @@
     },
     "prop:initial_button_slice": {
       "markdownDescription": "**Type**: ```Selection Wheel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:select_button_name": {
       "markdownDescription": "**Type**: ```Selection Wheel```",
@@ -2291,10 +1438,7 @@
     "prop:radio_toggle_group": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```\t\n\t\nIf toggle belongs to a group. Each toggle of the group must have a different ```toggle_group_forced_index```.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:toggle_name": {
       "markdownDescription": "**Type**: ```Toggle```\t\n\t\nName of the toggle group that this toggle belongs to.",
@@ -2304,31 +1448,19 @@
     "prop:toggle_default_state": {
       "markdownDescription": "**Type**: ```Toggle```\t\n\t\nIf the toggle is the one active from a group by default.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:toggle_group_forced_index": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:toggle_group_default_selected": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:reset_on_focus_lost": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```\t\n\t\n**Version**: ```+1.13```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:toggle_on_hover": {
       "markdownDescription": "**Type**: ```Toggle```\t\n\t\n**Version**: ```+1.2```",
@@ -2347,18 +1479,12 @@
     },
     "prop:enable_directional_toggling": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:toggle_grid_collection_name": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```\t\n\t\nName of the item collection to be used. It can be empty.",
       "default": "",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:collection_name" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:collection_name" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:checked_control": {
       "markdownDescription": "**Type**: ```Toggle | Dropdown```\t\n\t\nName of the control that will only show up when toggle is on the __checked__ state.",
@@ -2400,18 +1526,12 @@
     "prop:slider_small_decrease_button": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nID of the action for the decrease slider.\t\n\t\n**Version**: ```+1.2```",
       "default": "slider.small_decrease",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:button_id" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:button_id" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_small_increase_button": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nID of the action for the increase slider.\t\n\t\n**Version**: ```+1.2```",
       "default": "slider.small_decrease",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:button_id" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:button_id" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_steps": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nHow many steps (or values) does the slider have.",
@@ -2426,24 +1546,15 @@
     },
     "prop:slider_direction": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nOrientation of the slider movement.",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:orientation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:orientation" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_timeout": {
       "markdownDescription": "**Type**: ```Slider```",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_collection_name": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nName of the item collection to be used.",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:collection_name" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:collection_name" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_name": {
       "markdownDescription": "**Type**: ```Slider```",
@@ -2451,26 +1562,17 @@
     },
     "prop:slider_select_on_hover": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_selected_button": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nID of the action for when the slider is selected.\t\n\t\n**Version**: ```+1.2```",
       "default": "slider.selected",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:button_id" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:button_id" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_deselected_button": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nID of the action for when the slider is deselected.\t\n\t\n**Version**: ```+1.2```",
       "default": "slider.deselected",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:button_id" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:button_id" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:slider_box_control": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\nName of the control element that will behave as the slider thumb.",
@@ -2499,50 +1601,32 @@
     "prop:slider_render_bar_background_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:slider_render_bar_progress_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:slider_render_bar_outline_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:slider_render_bar_background_hover_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:slider_render_bar_progress_hover_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:slider_render_bar_outline_hover_color": {
       "markdownDescription": "**Type**: ```Slider```\t\n\t\n**Version**: ```0.16 - 1.1```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Slider Box
     "prop:indent_control": {
@@ -2566,10 +1650,7 @@
     // Tab (Legacy)
     "prop:tab_index": {
       "markdownDescription": "**Type**: ```Tab (Legacy)```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:tab_control": {
       "type": "string",
@@ -2582,25 +1663,16 @@
     // Carousel Label (Legacy/Dev)
     "prop:always_rotate": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Version**: ```None```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:rotate_speed": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Version**: ```None```",
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:hover_color": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Version**: ```None```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:hover_alpha": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Default**: ```1.0```\t\n\t\n**Version**: ```None```",
@@ -2617,10 +1689,7 @@
     "prop:pressed_color": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Version**: ```None```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:pressed_alpha": {
       "markdownDescription": "**Type**: ```Carousel Label (Legacy/Dev)```\t\n\t\n**Default**: ```1.0```\t\n\t\n**Version**: ```None```",
@@ -2667,24 +1736,15 @@
     },
     "prop:grid_rescaling_type": {
       "markdownDescription": "**Type**: ```Grid```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:orientation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:orientation" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:grid_fill_direction": {
       "markdownDescription": "**Type**: ```Grid```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:orientation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:orientation" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:precached_grid_item_count": {
       "markdownDescription": "**Type*: ```Grid```\t\n\t\n**Version**: ```1.2 - ?```",
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:grid_item_template": {
       "markdownDescription": "**Type**: ```Grid```",
@@ -2719,25 +1779,16 @@
     },
     "prop:constrain_to_rect": {
       "markdownDescription": "**Type**: ```Edit Box```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:enabled_newline": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\nAllows text box to be multiline.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:text_type": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\nWhich characters are allow in the text box.",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:text_type" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:text_type" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:max_length": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\nNumber of characters allowed.",
@@ -2760,18 +1811,12 @@
     "prop:can_be_deselected": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\nText box can be deselected.\t\n\t\n**Default**: ```true```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_listening": {
       "markdownDescription": "**Type**: ```Edit Box```\t\n\t\n**Default**: ```true```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:virtual_keyboard_buffer_control": {
       "type": "string",
@@ -2780,10 +1825,7 @@
     "prop:place_holder_text_hover_color": {
       "markdownDescription": "**Type**: ```Edit Box```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Scroll View
     "prop:scrollbar_track_button": {
@@ -2799,33 +1841,21 @@
     "prop:scroll_speed": {
       "markdownDescription": "**Type**: ```Scroll View```\t\n\t\nScrolling speed.",
       "default": 15,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:gesture_control_enabled": {
       "markdownDescription": "**Type**: ```Scroll View```\t\n\t\nScrolling speed.",
       "default": 15,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_handle_scrolling": {
       "description": "**Type**: ```Scroll View```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:touch_mode": {
       "markdownDescription": "**Type**: ```Scroll View```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:scrollbar_box": {
       "markdownDescription": "**Type**: ```Scroll View```\t\n\t\nName of child UI element or nested UI element that will behave as the scrollbar thumb.",
@@ -2850,26 +1880,17 @@
     "prop:jump_to_bottom_on_update": {
       "markdownDescription": "**Type**: ```Scroll View```\t\n\t\nJump to the bottom when the scrolling panel has an update. For example, adds more children to it.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:allow_scroll_even_when_content_fits": {
       "markdownDescription": "**Type**: ```Scroll View```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:scrollbar_always_visible": {
       "markdownDescription": "**Type**: ```Scroll View```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Factory
     "prop:factory": {
@@ -2912,7 +1933,7 @@
             },
             "max_children_size": {
               "oneOf": [
-                { 
+                {
                   "type": "integer",
                   "minimum": 0
                 },
@@ -2920,10 +1941,7 @@
               ]
             },
             "insert_location": {
-              "oneOf": [
-                {  "enum": ["front"]  },
-                { "$ref": "#/definitions/vl:variable" }
-              ]
+              "oneOf": [{ "enum": ["front"] }, { "$ref": "#/definitions/vl:variable" }]
             },
             "max_size": {
               "oneOf": [
@@ -2971,7 +1989,7 @@
       ]
     },
     // Data Binding
-    "prop:bindings": { 
+    "prop:bindings": {
       "markdownDescription": "**Type**: ```Any```\t\n\t\nBind data (coming from the code) to this UI element to use.",
       "oneOf": [
         {
@@ -2988,17 +2006,11 @@
         "ignored": {
           "markdownDescription": "If binding is completely ignored.\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.17```",
           "default": false,
-          "oneOf": [
-            { "type": "boolean" },
-            { "$ref": "#/definitions/vl:variable" }
-          ]
+          "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
         },
         "binding_type": {
           "description": "Which kind of data binding will be used.",
-          "oneOf": [
-            { "$ref": "#/definitions/vl:binding_type" },
-            { "$ref": "#/definitions/vl:variable" }
-          ]
+          "oneOf": [{ "$ref": "#/definitions/vl:binding_type" }, { "$ref": "#/definitions/vl:variable" }]
         },
         "binding_name": {
           "description": "Stores the value of the data bind name or condition with it.",
@@ -3018,10 +2030,7 @@
         },
         "binding_condition": {
           "description": "Condition for the data binding to happen.",
-          "oneOf": [
-            { "$ref": "#/definitions/vl:binding_condition" },
-            { "$ref": "#/definitions/vl:variable" }
-          ]
+          "oneOf": [{ "$ref": "#/definitions/vl:binding_condition" }, { "$ref": "#/definitions/vl:variable" }]
         },
         "source_control_name": {
           "description": "Name of the UI element to observe its property values.",
@@ -3037,10 +2046,7 @@
         },
         "resolve_sibling_scope": {
           "default": false,
-          "oneOf": [
-            { "type": "boolean" },
-            { "$ref": "#/definitions/vl:variable" }
-          ]
+          "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
         }
       }
     },
@@ -3048,7 +2054,7 @@
     "prop:collection_name": {
       "markdownDescription": "**Type**: ```Any```",
       "type": "string"
-    }, 
+    },
     "prop:collection_index": {
       "markdownDescription": "**Type**: ```Any```",
       "oneOf": [
@@ -3062,10 +2068,7 @@
     "prop:ignoreCollectionItem": {
       "markdownDescription": "**Type**: ```Any```",
       "default": false,
-        "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Focus
     "prop:default_focus_precedence": {
@@ -3076,35 +2079,26 @@
         },
         { "$ref": "#/definitions/vl:variable" }
       ]
-    }, 
+    },
     "prop:focus_enabled": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```",
       "default": false,
-      "oneOf": [
-       { "type": "boolean" },
-       { "$ref": "#/definitions/vl:variable" }
-     ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:focus_wrap_enabled": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```\t\n\t\n**Version**: ```+1.2```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:focus_magnet_enabled": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```\t\n\t\n**Version**: ```+1.2```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:focus_identifier": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```",
       "type": "string"
-    }, 
+    },
     "prop:focus_change_down": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```",
       "type": "string"
@@ -3120,7 +2114,7 @@
     "prop:focus_change_right": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```",
       "type": "string"
-    }, 
+    },
     "prop:focus_mapping": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Edit Box | Input Panel | Grid | Tooltip Trigger```",
       "oneOf": [
@@ -3153,73 +2147,43 @@
     },
     "prop:focus_container": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_last_focus": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_navigation_mode_left": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n*Version**: ```+1.2```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_navigation_mode" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_navigation_mode" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_navigation_mode_right": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n*Version**: ```+1.2```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_navigation_mode" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_navigation_mode" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_navigation_mode_down": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n*Version**: ```+1.2```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_navigation_mode" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_navigation_mode" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_navigation_mode_up": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n*Version**: ```+1.2```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_navigation_mode" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_navigation_mode" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_container_custom_left": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_container_custom"},
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_container_custom" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_container_custom_right": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_container_custom"},
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_container_custom" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_container_custom_down": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_container_custom"},
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_container_custom" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:focus_container_custom_up": {
       "markdownDescription": "**Type**: ```Panel | Stack Panel | Input Panel```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:focus_container_custom"},
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:focus_container_custom" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Input
     "prop:button_mappings": {
@@ -3242,439 +2206,274 @@
               },
               "button_up_right_of_first_refusal": {
                 "description": "Ignore first click.",
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "mapping_type": {
-                "oneOf": [
-                  { "$ref": "#/definitions/vl:mapping_type" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "$ref": "#/definitions/vl:mapping_type" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "ignored": {
                 "description": "Mapping is ignored.",
                 "default": false,
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "input_mode_condition": {
-                "oneOf": [
-                  { "$ref": "#/definitions/vl:input_mode_condition" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "$ref": "#/definitions/vl:input_mode_condition" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "ignore_input_scope": {
                 "default": false,
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "scope": {
-                "oneOf": [
-                  { "$ref": "#/definitions/vl:scope" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "$ref": "#/definitions/vl:scope" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "consume_event": {
                 "description": "If false, it will not be focused.",
                 "default": true,
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "handle_select": {
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               },
               "handle_deselect": {
-                "oneOf": [
-                  { "type": "boolean" },
-                  { "$ref": "#/definitions/vl:variable" }
-                ]
+                "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
               }
             }
           }
         },
         { "$ref": "#/definitions/vl:variable" }
-      ] 
+      ]
     },
     "prop:modal": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ] 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:inline_modal": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\n**Version**: ```+1.1```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ] 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_listen_to_input": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ] 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_handle_pointer": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\nAlways handle pointer even if it goes outside of the element.\t\n\t\n**Default**: ```false```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ] 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_handle_controller_direction": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.2```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:hover_enabled": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\n**Default**: ```true```\t\n\t\n**Version**: ```+1.2```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:prevent_touch_input": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\nPrevents touch events from firing.\t\n\t\n**Default**: ```false```\t\n\t\n**Version**: ```+1.10```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:consume_event": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\n**Version**: ```+1.2```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:consume_hover_events": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```\t\n\t\n**Version**: ```+1.11```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:gesture_tracking_button": {
       "markdownDescription": "**Type**: ```Scroll View```",
-      "oneOf": [
-        { "$ref": "#/definitions/hc:button_id" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/hc:button_id" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:gamepad_deflection_mode": {
       "markdownDescription": "**Type**: ```Button | Toggle | Dropdown | Slider | Slider Box | Edit Box | Input Panel | Scrollbar Box | Scrollbar Track | Scroll View | Screen | Selection Wheel | Tooltip Trigger```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Screen
     "prop:render_only_when_topmost": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen should only render when it's the top most screen in the screen stack.",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:screen_not_flushable": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:always_accepts_input": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:render_game_behind": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:absorbs_input": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen allows user input.",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:is_showing_menu": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:is_modal": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:should_steal_mouse": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen should hide the mouse.",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:low_frequency_rendering": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen should only render when it's the top most screen in the screen stack.",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:screen_draws_last": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen is the last screen in screen stack to be rendered.",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:vr_mode": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:force_render_below": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf screens below in the screen stack should render below.",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:send_telemetry": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:close_on_player_hurt": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\nIf the screen should close when the player is hurt.",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:cache_screen": {
       "markdownDescription": "**Type**: ```Screen```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:load_screen_immediately": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\n**Version**: ```+1.3/1.4```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:gamepad_cursor": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\n**Version**: ```+1.2```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:gamepad_cursor_deflection_mode": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\n**Version**: ```+1.15/1.16```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:should_be_skipped_during_automation": {
       "markdownDescription": "**Type**: ```Screen```\t\n\t\n**Version**: ```+?```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_custom_pocket_toast": {
       "markdownDescription": "**Type**: ```Screen```",
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Custom Renderer
     "prop:renderer": {
       "markdownDescription": "**Type**: ```Custom```\t\n\t\nSpecial elements that are created in the code because they are too complex for JSON UI.",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:renderer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:renderer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:replaced_while_inactive": {
       "markdownDescription": "**Type**: ```Custom```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Custom - Paper Doll Renderer
     "prop:camera_tilt_degrees": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:starting_rotation": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:use_selected_skin": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:use_uuid": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:use_skin_gui_scale": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:use_player_paperdoll": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:rotation": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer)```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:rotation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
-    }, 
+      "oneOf": [{ "$ref": "#/definitions/vl:rotation" }, { "$ref": "#/definitions/vl:variable" }]
+    },
     "prop:modelsize": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer | Netease Paper Doll Renderer)",
       "default": 1.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:animation_looped": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer | Netease Paper Doll Renderer)",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:animation": {
       "markdownDescription": "**Type**: ```Custom (Paper Doll Renderer | Netease Paper Doll Renderer)",
       "type": "string"
     },
-     // Custom - Netease Paper Doll Renderer
+    // Custom - Netease Paper Doll Renderer
     "prop:screen_offset": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)"
     },
     "prop:screen_scale": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)",
       "default": -1.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:mob_body_rot_y": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:mob_head_rot_y": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:init_rot_y": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:skeleton_model_name": {
       "markdownDescription": "**Type**: `` Custom (Netease Paper Doll Renderer)",
@@ -3691,123 +2490,78 @@
     "prop:use_default_face_icon": {
       "markdownDescription": "**Types**: ``Custom (Mini Map Renderer)",
       "default": true,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:face_icon_bg_color": {
       "markdownDescription": "**Types**: ``Custom (Mini Map Renderer)",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:enable_live_update": {
       "markdownDescription": "**Types**: ``Custom (Mini Map Renderer)",
       "default": false,
-      "oneOf": [
-        { "type": "boolean" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "boolean" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:live_update_interval": {
       "markdownDescription": "**Types**: ``Custom (Mini Map Renderer)",
       "default": 60,
-      "oneOf": [
-        { "type": "integer" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "integer" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:highest_y": {
       "markdownDescription": "**Types**: ``Custom (Mini Map Renderer)",
-      "oneOf": [
-        { "enum": [0, -1] },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "enum": [0, -1] }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Custom - Progress Bar Renderer
     "prop:primary_color": {
       "markdownDescription": "**Type**: ```Custom (Prograss Bar Renderer)```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:secondary_color": {
       "markdownDescription": "**Type**: ```Custom (Prograss Bar Renderer)```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:full_storage_color": {
       "markdownDescription": "**Type**: ```Custom (Prograss Bar Renderer)```",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Custom - Gradient Renderer
     "prop:gradient_direction": {
       "markdownDescription": "**Type**: ```Custom (Gradient Renderer)```\t\n\t\nDirection of the gradient.\t\n\t\n**Default**: ```vertical```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:orientation" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:orientation" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:color1": {
       "markdownDescription": "**Type**: ```Custom (Gradient Renderer)```\t\n\t\nColor of the top (```vertical```) or left (```horizontal```) half side. It can use alpha.",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:color2": {
       "markdownDescription": "**Type**: ```Custom (Gradient Renderer)```\t\n\t\nColor of the bottom (```vertical```) or right (```horizontal```) half side. It can use alpha.",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Custom - Name Tag Renderer
     "prop:text_color": {
       "markdownDescription": "**Type**: ```Custom (Name Tag Renderer)```\t\n\t\nColor of the name text. It can use alpha.",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:background_color": {
       "markdownDescription": "**Type**: ```Custom (Name Tag Renderer)```\t\n\t\nColor of the name background. It can use alpha.",
       "default": [],
-      "oneOf": [
-        { "$ref": "#/definitions/vl:color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Hover Text Renderer
     "prop:hover_text_max_width": {
       "markdownDescription": "**Type**: ```Custom (Hover Text Renderer)```",
-      "oneOf": [
-        { "type": "number", "minimum": 0 },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number", "minimum": 0 }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Debug Renderer
     "prop:debug": {
       "markdownDescription": "**Type**: ```Any```",
-      "oneOf": [
-        { "$ref": "#/definitions/vl:debug_color" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "$ref": "#/definitions/vl:debug_color" }, { "$ref": "#/definitions/vl:variable" }]
     },
     // Cycler
     "prop:target_cycler_to_compare": {
@@ -3861,46 +2615,40 @@
     },
     // Tooltip Trigger
     "prop:tooltip_name": {
-       "markdownDescription": "**Type**: ```Tooltip Trigger```",
-       "default": "",
-       "type": "string"
+      "markdownDescription": "**Type**: ```Tooltip Trigger```",
+      "default": "",
+      "type": "string"
     },
     "prop:tooltip_top_content_control": {
-       "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
-       "default": "",
-       "type": "string"
+      "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
+      "default": "",
+      "type": "string"
     },
     "prop:tooltip_bottom_content_control": {
-       "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
-       "default": "",
-       "type": "string"
+      "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
+      "default": "",
+      "type": "string"
     },
     "prop:tooltip_area": {
-       "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
-       "default": "",
-       "type": "string"
+      "markdownDescription": "**Type**: ```Tooltip Trigger```\t\n\t\nControl name",
+      "default": "",
+      "type": "string"
     },
     "prop:tooltip_tts_value": {
-       "markdownDescription": "**Type**: ```Tooltip Trigger```",
-       "default": "",
-       "type": "string"
+      "markdownDescription": "**Type**: ```Tooltip Trigger```",
+      "default": "",
+      "type": "string"
     },
     // Equipment Preview Renderer
     "prop:rotation_x": {
       "markdownDescription": "**Type**: ```Custom (Equipment Preview Renderer)```",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "prop:rotation_y": {
       "markdownDescription": "**Type**: ```Custom (Equipment Preview Renderer)```",
       "default": 0.0,
-      "oneOf": [
-        { "type": "number" },
-        { "$ref": "#/definitions/vl:variable" }
-      ]
+      "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/vl:variable" }]
     },
     "vl:variable": {
       "type": "string",
@@ -3963,44 +2711,19 @@
       ]
     },
     "vl:orientation": {
-      "enum": [
-        "vertical",
-        "horizontal",
-        "none"
-      ]
+      "enum": ["vertical", "horizontal", "none"]
     },
     "vl:text_alignment": {
-      "enum": [
-        "left",
-        "right",
-        "center"
-      ]
+      "enum": ["left", "right", "center"]
     },
     "vl:font_type": {
-      "enum": [
-        "default",
-        "rune",
-        "unicode",
-        "smooth"
-      ]
+      "enum": ["default", "rune", "unicode", "smooth"]
     },
     "vl:font_size": {
-      "enum": [
-        "small",
-        "normal",
-        "medium",
-        "large",
-        "extra_large"
-      ]
+      "enum": ["small", "normal", "medium", "large", "extra_large"]
     },
     "vl:clip_direction": {
-      "enum": [
-        "left",
-        "right",
-        "up",
-        "down",
-        "center"
-      ]
+      "enum": ["left", "right", "up", "down", "center"]
     },
     "vl:color": {
       "type": "array",
@@ -4013,32 +2736,10 @@
       "maxItems": 4
     },
     "vl:mc_color": {
-      "enum": [
-        "white",
-        "black",
-        "yellow",
-        "orange",
-        "green",
-        "purple",
-        "nil",
-        "cyan",
-        "red",
-        "grey",
-        "gray",
-        "blue"
-      ]
+      "enum": ["white", "black", "yellow", "orange", "green", "purple", "nil", "cyan", "red", "grey", "gray", "blue"]
     },
     "vl:debug_color": {
-      "enum": [
-        "white",
-        "black",
-        "gray",
-        "red",
-        "blue",
-        "green",
-        "yellow",
-        "purple"
-      ]
+      "enum": ["white", "black", "gray", "red", "blue", "green", "yellow", "purple"]
     },
     "vl:offset": {
       "type": "array",
@@ -4070,44 +2771,16 @@
       }
     },
     "vl:rotation": {
-      "enum": [
-        "none",
-        "auto",
-        "gesture_x",
-        "custom_y"
-      ]
+      "enum": ["none", "auto", "gesture_x", "custom_y"]
     },
     "vl:binding_type": {
-      "enum": [
-        "global",
-        "collection",
-        "collection_details",
-        "view",
-        "none"
-      ]
+      "enum": ["global", "collection", "collection_details", "view", "none"]
     },
     "vl:binding_condition": {
-      "enum": [
-        "none",
-        "always",
-        "always_when_visible",
-        "visible",
-        "once",
-        "visibility_changed"
-      ]
+      "enum": ["none", "always", "always_when_visible", "visible", "once", "visibility_changed"]
     },
     "vl:anim_type": {
-      "enum": [
-        "alpha",
-        "clip",
-        "color",
-        "flip_book",
-        "offset",
-        "size",
-        "uv",
-        "wait",
-        "aseprite_flip_book"
-      ]
+      "enum": ["alpha", "clip", "color", "flip_book", "offset", "size", "uv", "wait", "aseprite_flip_book"]
     },
     "vl:renderer": {
       "enum": [
@@ -4205,19 +2878,10 @@
       ]
     },
     "vl:mapping_type": {
-      "enum": [
-        "global",
-        "pressed",
-        "double_pressed",
-        "focused"
-      ]
+      "enum": ["global", "pressed", "double_pressed", "focused"]
     },
     "vl:scope": {
-      "enum": [
-        "global",
-        "view",
-        "controller"
-      ]
+      "enum": ["global", "view", "controller"]
     },
     "vl:input_mode_condition": {
       "enum": [
@@ -4228,11 +2892,7 @@
       ]
     },
     "vl:text_type": {
-      "enum": [
-        "ExtendedASCII",
-        "IdentifierChars",
-        "NumberChars"
-      ]
+      "enum": ["ExtendedASCII", "IdentifierChars", "NumberChars"]
     },
     "vl:focus_container_custom": {
       "type": "array",
@@ -4249,13 +2909,7 @@
       }
     },
     "vl:focus_navigation_mode": {
-      "enum": [
-        "contained",
-        "none",
-        "custom",
-        "stop",
-        ""
-      ]
+      "enum": ["contained", "none", "custom", "stop", ""]
     },
     "vl:global_variables": {
       "enum": [
@@ -5734,7 +4388,7 @@
         "#third_party_featured_item_grid_dimension",
         "#legacy_world_item_grid_dimension",
         "#blocked_players_grid_dimension",
-        "#screenshotpicker_grid_dimension", 
+        "#screenshotpicker_grid_dimension",
         "#past_promo_row_grid_dimension",
         "#future_promo_row_grid_dimension",
         "#suggested_offers_item_grid_dimension",
@@ -8490,71 +7144,71 @@
         "#last_update_text",
         "#is_read_more",
         "#is_read_less",
-        "#is_specail_offer_banner_visible",  
-        "#show_color_picker",  
-        "#color_single_page_size", 
-        "#right_panel_title_rarity", 
-        "#skin_pack_right_panel_usage_is_limited", 
-        "#skin_pack_right_panel_usage_text", 
-        "#purchase_with_currency_disclaimer_visible",  
-        "#is_featured_classic_skin_loading", 
-        "#is_featured_pack_visible", 
-        "#is_cycle_classic_skin_featured_section_ready", 
-        "#right_panel_description",  
-        "#is_right_panel_classic_custom_visible",  
-        "#right_panel_title",  
-        "#is_right_panel_classic_skin_pack_visible", 
-        "#skin_pack_author", 
-        "#skin_color_option_on", 
-        "#is_offer_on_sale", 
-        "#is_limited_time_offer",  
-        "#is_offer_purchasable_and_not_free",  
-        "#is_offer_new", 
-        "#is_offer_locked",  
-        "#current_panel_color",  
-        "#in_use_texture", 
-        "#in_use_texture_file_system", 
-        "#left_color_cycle_enabled", 
-        "#other_channels", 
-        "#color_picker_title", 
-        "#right_color_cycle_enabled",  
-        "#is_skin_index_visible",  
-        "#is_skin_selected", 
-        "#is_skin_equipped", 
-        "#classic_skin_index", 
-        "#has_capes",  
-        "#dressing_room_tabs_visible", 
-        "#rarity_bar_texture", 
-        "#rarity_bar_visible", 
-        "#rarity_color", 
-        "#is_piece_equipped",  
-        "#is_piece_selected",  
-        "#is_piece_being_previewed", 
-        "#has_defaults", 
-        "#sizing_options_on",  
-        "#limb_title", 
-        "#left_limb_enabled",  
-        "#is_leg_or_arms", 
-        "#is_none_option_visible", 
-        "#is_none_option_enabled", 
-        "#is_featured_cycle_button_enabled", 
-        "#is_cycle_featured_section_ready",  
-        "#is_subcategory_featured_section_visible",  
-        "#body_category_selected", 
-        "#style_category_selected",  
-        "#pack_additional_skin_count_text",  
-        "#is_classic_skin_pack_loading", 
-        "#is_skin_pack_multiplayer_restricted",  
-        "#is_default_skins_visible", 
-        "#is_owned_pack_section_visible",  
-        "#is_purchasable_pack_section_visible",  
-        "#is_skin_pack_screen_search_loading", 
-        "#is_skin_pack_section_visible", 
-        "#is_pack_category_section_visible", 
-        "#cape_count", 
-        "#is_cape_selection_visible",  
-        "#is_cape_section_visible",  
-        "#is_piece_section_visible", 
+        "#is_specail_offer_banner_visible",
+        "#show_color_picker",
+        "#color_single_page_size",
+        "#right_panel_title_rarity",
+        "#skin_pack_right_panel_usage_is_limited",
+        "#skin_pack_right_panel_usage_text",
+        "#purchase_with_currency_disclaimer_visible",
+        "#is_featured_classic_skin_loading",
+        "#is_featured_pack_visible",
+        "#is_cycle_classic_skin_featured_section_ready",
+        "#right_panel_description",
+        "#is_right_panel_classic_custom_visible",
+        "#right_panel_title",
+        "#is_right_panel_classic_skin_pack_visible",
+        "#skin_pack_author",
+        "#skin_color_option_on",
+        "#is_offer_on_sale",
+        "#is_limited_time_offer",
+        "#is_offer_purchasable_and_not_free",
+        "#is_offer_new",
+        "#is_offer_locked",
+        "#current_panel_color",
+        "#in_use_texture",
+        "#in_use_texture_file_system",
+        "#left_color_cycle_enabled",
+        "#other_channels",
+        "#color_picker_title",
+        "#right_color_cycle_enabled",
+        "#is_skin_index_visible",
+        "#is_skin_selected",
+        "#is_skin_equipped",
+        "#classic_skin_index",
+        "#has_capes",
+        "#dressing_room_tabs_visible",
+        "#rarity_bar_texture",
+        "#rarity_bar_visible",
+        "#rarity_color",
+        "#is_piece_equipped",
+        "#is_piece_selected",
+        "#is_piece_being_previewed",
+        "#has_defaults",
+        "#sizing_options_on",
+        "#limb_title",
+        "#left_limb_enabled",
+        "#is_leg_or_arms",
+        "#is_none_option_visible",
+        "#is_none_option_enabled",
+        "#is_featured_cycle_button_enabled",
+        "#is_cycle_featured_section_ready",
+        "#is_subcategory_featured_section_visible",
+        "#body_category_selected",
+        "#style_category_selected",
+        "#pack_additional_skin_count_text",
+        "#is_classic_skin_pack_loading",
+        "#is_skin_pack_multiplayer_restricted",
+        "#is_default_skins_visible",
+        "#is_owned_pack_section_visible",
+        "#is_purchasable_pack_section_visible",
+        "#is_skin_pack_screen_search_loading",
+        "#is_skin_pack_section_visible",
+        "#is_pack_category_section_visible",
+        "#cape_count",
+        "#is_cape_selection_visible",
+        "#is_cape_section_visible",
+        "#is_piece_section_visible",
         "#preview_appearance_on",
         "#is_classic_skin_current_offer_loading",
         "#is_category_section_visible",
